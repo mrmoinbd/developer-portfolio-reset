@@ -23,11 +23,18 @@ body {
     border: none;
 }
 
+.all-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* nav style start */
-header{
- background-image: url(../images/developer.png), url(../images/header_bg.png); 
- background-repeat: no-repeat;
-background-position: top left, bottom right;
+header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 
 }
 
@@ -73,15 +80,17 @@ nav ul li a {
 
 /* header banner style start */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 38px 0px 230px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 }
+
 .banner-greetings {
     color: var(--Dark-02, #474747);
     font-size: 45px;
@@ -99,7 +108,7 @@ nav ul li a {
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
 }
 
 .second-btn {
@@ -111,8 +120,66 @@ nav ul li a {
     border: 1px solid #FD6E0A;
     padding: 18px 35px;
 }
-.profile-img{
+
+.profile-img {
     width: 584px;
 }
 
 /* header banner style end */
+
+/* about section style start */
+.about {
+    padding: 131px 156px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.sub-heading {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-description {
+    margin-top: 30px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info-head {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info-sub-head {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* about section style end */
